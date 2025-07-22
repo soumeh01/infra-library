@@ -2,7 +2,7 @@
 
 A central catalogue of production-ready GitHub Actions workflows, CI/CD
 templates, and helper scripts that can be pulled into any repository via
-`uses: arm-chatgpt/infra-library/...`.
+`uses: soumeh01/infra-library/...`.
 
 ## Why this exists
 
@@ -30,4 +30,4 @@ on: [push, pull_request]
 
 jobs:
   build:
-    uses: arm-chatgpt/infra-library/workflows/ci@v1
+    uses: soumeh01/infra-library/workflows/ci@v1
